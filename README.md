@@ -11,7 +11,10 @@ Git-Cheat-Sheet
 ### Create empty branch on GitHub
 
 $ git checkout --orphan empty-branch
+
 $ git rm -rf .
+
 $ git commit --allow-empty -m "root commit"
+
 $ git push origin empty-branch
 
