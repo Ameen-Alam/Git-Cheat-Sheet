@@ -28,3 +28,11 @@ git checkout -b <your-branch> <sha>
   
 git rebase -i HEAD~3
 git merge --squash feature/login
+
+  
+#### To see from the Git history  
+  
+git merge --no-ff myfeature
+  
+  
+  
