@@ -35,4 +35,10 @@ git merge --squash feature/login
 git merge --no-ff myfeature
   
   
+#### Git  checkout from develop to new branch release-1.2
+git checkout -b release-1.2 develop
+
+  
+  
+  
   
