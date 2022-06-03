@@ -39,6 +39,8 @@ git merge --no-ff myfeature
 git checkout -b release-1.2 develop
 
   
-  
-  
-  
+#### The fix is by use autocrlf
+git config --global core.autocrlf true
+
+#### Renormalizing Line Endings
+https://www.edwardthomson.com/blog/advent_day_21_renormalizing_line_endings.html
