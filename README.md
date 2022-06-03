@@ -44,3 +44,7 @@ git config --global core.autocrlf true
 
 #### Renormalizing Line Endings
 https://www.edwardthomson.com/blog/advent_day_21_renormalizing_line_endings.html
+  
+$ echo "* text=auto" >.gitattributes
+$ git add --renormalize .
+$ git commit -m "Introduce end-of-line normalization"
